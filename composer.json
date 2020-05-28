@@ -1,0 +1,22 @@
+{
+    "name": "solwin/callforprice",
+    "description": "Magento 2 Call For Price extension removes price & add to cart button for specific simple products and replaces it with a Call for price button. It encourages customers to contact you for quote.",
+    "type": "magento2-module",
+    "version": "2.0.7",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Callforprice\\": ""
+        }
+    }
+}
